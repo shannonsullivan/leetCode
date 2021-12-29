@@ -1,6 +1,8 @@
 ### LeetCode
-This is a compilation of questions and solutions to practice coding skills for technical interviews using the leetcode platform.
+Compilation of questions with solutions to practice coding skills for technical interviews using the leetcode platform.
 
-The goal is to submit at least five solutions per day using the site's filter to prioritize the problems.
+Each solution includes a readme file with the original question, examples, constraints and pseudocode.
 
-We will be starting with the easy difficulty level and basic approach progressing to the medium and hard difficulty levels with a focus on time complexity.
+Practice starts with easy difficulty level and basic approach progressing to medium and hard difficulty levels focusing on time complexity.
+
+Submit at least five solutions per day using the site's filter to prioritize the problems.
