@@ -22,7 +22,7 @@ Explanation: [9,4] is also accepted.
 3. Initialize pointer 1, 2 and 3
 4. Sort both input arrays
 5. While fist pointer is less than length of 1st input array
-6. Ann 2nd pointer is less than length of 2nd input array
+6. And 2nd pointer is less than length of 2nd input array
 7. If 1st input array index at 1st pointer is less than 2nd input array index at 2nd pointer
 8. Increment 1st pointer
 9. Else if 1st input array index at 1st pointer is greater than 2nd input array index at 2nd pointer
