@@ -1,22 +1,22 @@
-#350. Intersection of Two Arrays II
+## 350. Intersection of Two Arrays II
 Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.
 
-#Example 1:
+### Example 1:
 Input: nums1 = [1,2,2,1], nums2 = [2,2]\
 Output: [2,2]
 
-#Example 2:
+### Example 2:
 Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]\
 Output: [4,9]\
 Explanation: [9,4] is also accepted.
 
 
-#Constraints:
+### Constraints:
 
 - 1 <= nums1.length, nums2.length <= 1000
 - 0 <= nums1[i], nums2[i] <= 1000
 
-#Pseudocode
+### Pseudocode:
 1. Initialize length of 1st input array
 2. Initialize length of 2nd input array
 3. Initialize pointer 1, 2 and 3

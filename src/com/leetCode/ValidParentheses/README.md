@@ -1,4 +1,4 @@
-#20. Valid Parentheses
+## 20. Valid Parentheses
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:
@@ -6,23 +6,23 @@ An input string is valid if:
 Open brackets must be closed by the same type of brackets.
 Open brackets must be closed in the correct order.
 
-#Example 1:
+### Example 1:
 Input: s = "()"\
 Output: true\
 
-#Example 2:
+### Example 2:
 Input: s = "()[]{}"\
 Output: true\
 
-#Example 3:
+### Example 3:
 Input: s = "(]"\
 Output: false
 
-#Constraints:
+### Constraints:
 - 1 <= s.length <= 104
 - s consists of parentheses only '()[]{}'.
 
-#Pseudocode
+### Pseudocode:
 1. Return false if input sting doesn't have an even number of characters
 2. Instantiate stack of Characters
 3. Iterate through characters in string
