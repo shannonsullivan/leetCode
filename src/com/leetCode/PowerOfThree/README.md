@@ -17,7 +17,7 @@ Input: n = 9\
 Output: true
 
 ### Constraints:
-- -2^31 <= n <= 2^31 - 1
+- -2<sup>31</sup> <= n <= 2<sup>31</sup> - 1
 
 ### Pseudocode:
 1. Check if input value it less than 1 and return false

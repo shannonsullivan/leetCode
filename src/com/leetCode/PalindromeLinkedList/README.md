@@ -21,24 +21,22 @@ Output: false
 
 ### Pseudocode:
 Use two pointer technique with slow and fast pointer. Find the middle of list, 
-split in half and reverse and reverse one half. Then compare each half.
+split in half and reverse one half. Then compare each half.
 1. Find the middle of list and split into two lists
 2. Initialize slow and fast pointer both to head
 3. While the fast next node and the one following are not null
 4. Set the slow pointer to the next node and the fast pointer to the node after next
-5. If the fast pointer doesn't equal null
-6. Set slow pointer to the next node
-7. Now that the list is split, reverse one half
-8. Initialize a reverse head to the reverse method starting with the slow pointer
-9. While the reverse head node doesn't equal null
-10. Compare if head node value and reverse head node value are not equal and return false
-11. Else assign the next reverse head to the reverse head node
-12. Assign next head to the head node and return true
-13. Create reverse method
-14. Initialize previous list node to null
-15. While head isn't null
-16. Initialize next to next head
-17. Assign previous node to head node
-18. Assign head to previous
-19. Assign next node to head
-20. Return previous
+5. Now that the list is split, reverse one half
+6. Initialize a reverse head to the reverse method starting with the slow pointer
+7. While the reverse head node and head node doesn't equal null
+8. Compare if head node value and reverse head node value are not equal and return false
+9. Else assign the next reverse head to the reverse head node
+10. Assign next head to the head node and return true
+11. Create reverse method
+12. Initialize previous list node to null
+13. While head isn't null
+14. Initialize next to next head
+15. Assign previous node to head node
+16. Assign head to previous
+17. Assign next node to head
+18. Return previous

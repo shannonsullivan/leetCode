@@ -14,7 +14,7 @@ Output: 2
 ### Constraints:
 - n == nums.length
 - 1 <= n <= 5 * 104
-- -2^31 <= nums[i] <= 2^31 - 1
+- -2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1
 
 ### Pseudocode:
 USe Boyer-Moore majority vote algorithm

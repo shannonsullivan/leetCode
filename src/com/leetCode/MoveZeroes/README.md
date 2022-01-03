@@ -13,7 +13,7 @@ Output: [0]
 
 ## Constraints:
 - 1 <= nums.length <= 104
-- -231 <= nums[i] <= 231 - 1
+- -2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1
 
 ## Pseudocode:
 Use two pointer technique with fast and slow pointer. 
