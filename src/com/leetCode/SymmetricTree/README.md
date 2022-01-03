@@ -21,7 +21,7 @@ Output: false
 - The number of nodes in the tree is in the range [1, 1000].
 - -100 <= Node.val <= 100
 
-### Pseudocode
+### Pseudocode:
 Use recursion with overloaded method
 1. Create overloaded method with left and right parameters
 2. Recursion needs exit condition checking if left or right node is null returning they are equal
