@@ -17,6 +17,7 @@ Output: [2]
 ### Pseudocode
 1. Instantiate new list of disappeared numbers to return
 2. Instantiate new hash set to hold numbers without duplicates
-3. Iterate through input array 
-4. Check if hash set contains the input number
-5. If false then add number to new list and return list
+3. Iterate through input array to put numbers in hash set
+4. Iterate through input array starting at 1 while less than or equal to length
+5. Check if hash set contains input number in array
+6. If false then add number to new list and return list
