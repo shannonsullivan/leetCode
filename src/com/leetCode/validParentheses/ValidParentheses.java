@@ -1,4 +1,4 @@
-package com.leetCode.ValidParentheses;
+package com.leetCode.validParentheses;
 
 import java.util.Stack;
 
