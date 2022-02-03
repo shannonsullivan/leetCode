@@ -1,4 +1,5 @@
 ## 27. Remove Element
+
 Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
 
 Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in 
@@ -54,8 +55,8 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 
 ### Pseudocode:
-1. Initialize variable length to 0 representing the index
+1. Initialize pointer to 0 
 2. Iterate through input array
 3. If element doesnt equals input value
-4. Then copy input index to input length
-5. Increment length
+4. Then copy input index to input pointer
+5. Increment pointer

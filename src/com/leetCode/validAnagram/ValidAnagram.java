@@ -1,4 +1,4 @@
-package com.leetCode.ValidAnagram;
+package com.leetCode.validAnagram;
 
 import java.util.Arrays;
 
